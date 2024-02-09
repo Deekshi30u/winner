@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#deek{
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(300deg,
+        #f8c704,
+        #f3bdf3,
+        #f805f4);
+        background-size:180% 180%;
+        animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#club-description{
+    font-size:30px;
+    font-family: sans-serif;
+}
+h2{
+    font-family:serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#jdk{
+    font-size: 30px;
+        font-family: sans-serif;
+    font-style:normal;   
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    background-color: #444;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    border-radius:50%;
+}
+#about,#chapters,#events,#achievements,#gallery,#contact{
+    color: white;
+}
+#faculty-chapter,#student-chapter{
+    font-size: 20px;
+}
